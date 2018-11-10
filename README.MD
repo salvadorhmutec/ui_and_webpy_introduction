@@ -1,6 +1,6 @@
 # Introducción al Diseño de UI y web.py
 
-En estos tutoriales se muestra el uso de [web.py](http://webpy.org/) para el back-end de un sitio web y la implementación de [Bootstrap](http://getbootstrap.com/), [JQuery](https://jquery.com/) para el front-end.
+En estos ejemplos se muestra el uso de [web.py](http://webpy.org/) para el back-end de un sitio web y la implementación de [Bootstrap](http://getbootstrap.com/), [JQuery](https://jquery.com/) para el front-end.
 
 Además se muestra una introducción al patrón de diseño MVC.
 
