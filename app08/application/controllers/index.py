@@ -8,5 +8,5 @@ class Index:
         pass
 
     def GET(self):  
-        datos = conexion.get_all_datos().list()  
+        datos = conexion.select_datos().list()
         return render.index(datos)

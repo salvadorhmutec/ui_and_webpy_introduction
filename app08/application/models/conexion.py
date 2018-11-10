@@ -16,10 +16,38 @@ db = web.database(
     )
 
 
-def get_all_datos():
+def select_datos():
     try:
         return db.select('datos')
     except Exception as e:
-        print "Model get all Error {}".format(e.args)
-        print "Model get all Message {}".format(e.message)
+        print "Model select_datos Error {}".format(e.args)
+        print "Model select_datos Message {}".format(e.message)
+        return None
+
+def insert_datos(email, password):
+    try:
+        return db.insert('datos', email=email,password=password)
+    except Exception as e:
+        print "Model insert_datos Error {}".format(e.args)
+        print "Model insert_datos Message {}".format(e.message)
+        return None
+
+def delete_datos(email):
+    try:
+        return db.delete('datos', where='email=$email',vars=locals())
+    except Exception as e:
+        print "Model insert_datos Error {}".format(e.args)
+        print "Model insert_datos Message {}".format(e.message)
+        return None
+
+def update_datos(email, password):
+    try:
+        return db.update('datos', 
+            email=email,
+            password=password, 
+            where='email=$email',
+            vars=locals())
+    except Exception as e:
+        print "Model insert_datos Error {}".format(e.args)
+        print "Model insert_datos Message {}".format(e.message)
         return None
