@@ -7,4 +7,5 @@ class Index:
         pass
 
     def GET(self):       
-        return render.index()
+        datos =['Salvador','salvadorhm@gmail.com']     
+        return render.index(datos)
