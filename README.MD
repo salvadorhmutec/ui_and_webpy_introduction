@@ -11,4 +11,5 @@ Además se muestra una introducción al patrón de diseño MVC.
 3. Uso de template html y plantilla master.
 4. Introduccion a MVC, application/controllers y application/views.
 5. Introduccion a MVC, y archivos static/images
-6. Introduccion a MVC, y archivos static/images, static/css y static/js.
+6. Introduccion a MVC, y archivos static/images, uso básico de Bootstrap.
+7. Introduccion a MVC, y archivos static/images, uso básico de formularios Bootstrap y web.py.
