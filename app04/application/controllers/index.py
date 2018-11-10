@@ -8,4 +8,4 @@ class Index:
 
     def GET(self):       
         datos =['Salvador','salvadorhm@gmail.com']     
-        return render.index(datos)
+        return render.index(datos) # archivo index.html

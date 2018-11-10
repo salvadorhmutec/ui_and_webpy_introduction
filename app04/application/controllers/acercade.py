@@ -9,4 +9,4 @@ class Acercade:
     def GET(self):       
         nombre = "Salvador"
         email = "salvadorhm@gmail.com"    
-        return render.acercade(nombre, email)
+        return render.acercade(nombre, email) # archivo acercade.html
