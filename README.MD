@@ -13,3 +13,4 @@ Además se muestra una introducción al patrón de diseño MVC.
 5. Introduccion a MVC, y archivos static/images
 6. Introduccion a MVC, y archivos static/images, uso básico de Bootstrap.
 7. Introduccion a MVC, y archivos static/images, uso básico de formularios Bootstrap y web.py.
+8. Introduccion a MVC, y archivos static/images, uso básico de formularios Bootstrap y web.py y mysql.

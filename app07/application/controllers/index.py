@@ -14,6 +14,3 @@ class Index:
         print formulario.exampleInputEmail1
         print formulario.exampleInputPassword1
         return formulario.exampleInputEmail1 + ":" + formulario.exampleInputPassword1
-        
-
-
