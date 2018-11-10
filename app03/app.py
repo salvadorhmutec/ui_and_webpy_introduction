@@ -1,14 +1,22 @@
 import web
         
 urls = (
-    '/', 'index'
+    '/', 'Index',
+    '/acercade', 'Acercade',
 )
 
 render = web.template.render('templates/', base='master')
 
-class index: 
-    def GET(self):       
-        return render.index()
+class Index: 
+    def GET(self):
+        datos =['Salvador','salvadorhm@gmail.com']     
+        return render.index(datos)
+
+class Acercade: 
+    def GET(self):
+        nombre = "Salvador"
+        email = "salvadorhm@email.com"       
+        return render.acercade(nombre, email)
 
 if __name__ == "__main__":
     web.config.debug = False

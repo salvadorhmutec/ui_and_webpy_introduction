@@ -1,4 +1,3 @@
-# App 03
+# App 02
 
-1. Plantila para todas las paginas templates/master.html.
-2. index diseñado en html que se iserta en master.html.
+1. Uso de templates diseñados en html.
