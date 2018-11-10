@@ -1,7 +1,8 @@
 import web
         
 urls = (
-    '/', 'application.controllers.index.Index'
+    '/', 'application.controllers.index.Indexs',
+    '/acercade', 'application.controllers.acercade.Acercade',
 )
 
 if __name__ == "__main__":
