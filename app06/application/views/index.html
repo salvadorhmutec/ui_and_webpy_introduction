@@ -1,13 +1,15 @@
 $def with(datos)
 
-<h1>Index</h1>
-
-$for i in range(5):
-    $i - $i </br> 
-
-Nombre $datos[0] </br>
-Email $datos[1] </br>
-
-<img src='../../static/images/fondo1.jpg' width="300px" height="300px"></br>
-
-<button type="button" class="btn btn-primary" onclick="window.location.href('http://google.com');">Google</button>
+<div class="card text-center">
+        <div class="card-header">
+          Featured
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">$datos[0]</h5>
+          <p class="card-text">$datos[1]</p>
+          <a href="/acercade" class="btn btn-secondary">Acerca de</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>
