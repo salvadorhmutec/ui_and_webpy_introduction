@@ -15,7 +15,7 @@ $def with(datos)
   <tbody>
     $for row in datos:
       <tr>
-        <td>$row.email</td>
+        <td><a href="/view/$row.email">$row.email</a></td>
         <td>$row.password</td>
         <td><a href="/update/$row.email">Update</a></td>
         <td><a href="/delete/$row.email">Delete</a></td>

@@ -5,6 +5,7 @@ urls = (
     '/insert', 'application.controllers.insert.Insert',
     '/update/(.*)', 'application.controllers.update.Update',
     '/delete/(.*)', 'application.controllers.delete.Delete',
+    '/view/(.*)', 'application.controllers.view.View',
 )
 
 if __name__ == "__main__":
