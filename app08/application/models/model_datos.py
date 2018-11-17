@@ -1,6 +1,6 @@
 import web
 '''
-Parametros de configuración para conectarse a una base de datos
+Parametros de configuracion para conectarse a una base de datos
 MySQL o MariaDB
 '''
 db_host = 'localhost'

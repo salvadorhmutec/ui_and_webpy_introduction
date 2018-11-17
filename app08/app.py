@@ -2,7 +2,7 @@ import web
         
 urls = (
     '/', 'application.controllers.index.Index',
-    '/datos/(.+)', 'application.controllers.datos.Datos'
+    '/insert', 'application.controllers.insert.Insert'
 )
 
 if __name__ == "__main__":

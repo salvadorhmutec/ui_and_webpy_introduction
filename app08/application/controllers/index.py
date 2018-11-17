@@ -1,5 +1,5 @@
 import web
-import application.models.conexion as conexion
+import application.models.model_datos as model_datos
 
 render = web.template.render('application/views/', base='master')
 
@@ -8,5 +8,5 @@ class Index:
         pass
 
     def GET(self):  
-        datos = conexion.select_datos().list()
+        datos = model_datos.select_datos().list()
         return render.index(datos)

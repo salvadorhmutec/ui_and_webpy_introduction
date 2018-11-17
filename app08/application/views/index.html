@@ -8,6 +8,8 @@ $def with(datos)
     <tr>
       <th scope="col">Email</th>
       <th scope="col">Password</th>
+      <th scope="col">Update</th>
+      <th scope="col">Delete</th>
     </tr>
   </thead>
   <tbody>
@@ -15,6 +17,8 @@ $def with(datos)
       <tr>
         <td>$row.email</td>
         <td>$row.password</td>
+        <td><a href="/update/$row.email">Update</a></td>
+        <td><a href="/delete/$row.email">Delete</a></td>
       </tr>
   </tbody>
 </table>
