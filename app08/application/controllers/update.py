@@ -12,8 +12,8 @@ class Update:
         return render.update(datos)
     
     def POST(self, email):
-        formulario = web.input()
-        email = formulario['email']
-        password = formulario['password']
-        model_datos.update_datos(email, password)
-        raise web.seeother('/')
+        formulario = web.input() # almacena los datos del formulario web
+        email = formulario['email'] # almacena el email del input email
+        password = formulario['password'] # almacena el password del input password
+        model_datos.update_datos(email, password) # actuliza los valores
+        raise web.seeother('/') # redirecciona al index

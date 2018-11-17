@@ -3,11 +3,11 @@ import web
 Parametros de configuracion para conectarse a una base de datos
 MySQL o MariaDB
 '''
-db_host = 'localhost'
-db_name = 'base_demo'
-db_user = 'kuorra'
-db_pw = 'kuorra.2018'
-db_port = 3308
+db_host = 'localhost' # servidor
+db_name = 'base_demo' # nombre de la base de datos
+db_user = 'kuorra' # user
+db_pw = 'kuorra.2018' # password del user
+db_port = 3308 # puerto de mariadb
 
 db = web.database(
     dbn='mysql',

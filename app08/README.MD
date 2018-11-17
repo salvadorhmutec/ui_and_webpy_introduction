@@ -1,4 +1,4 @@
-# App 07
+# App 08
 
 1. Plantila para todas las paginas (application/views/master).
 2. Uso de templates HTML diseñados por el usuario.
