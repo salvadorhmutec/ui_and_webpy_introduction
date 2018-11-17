@@ -3,16 +3,16 @@ import application.models.model_datos as model_datos
 
 render = web.template.render('application/views/', base='master')
 
-class Insert:
+class Delete:
     def __init__(self):
         pass
 
-    def GET(self):  
-        return render.insert()
+    def GET(self, email): 
+        datos = model_datos.select_email(email) 
+        return render.delete(datos)
     
-    def POST(self):
+    def POST(self, email):
         formulario = web.input()
         email = formulario['email']
-        password = formulario['password']
-        model_datos.insert_datos(email, password)
+        model_datos.delete_datos(email)
         raise web.seeother('/')
