@@ -20,4 +20,6 @@ DESCRIBE datos;
 SELECT "Creando un usuario y asignandolo a la base de datos" as "Mensaje";
 -- CREATE USER 'kuorra'@'localhost' IDENTIFIED BY 'kuorra.2018';
 GRANT ALL PRIVILEGES ON base_demo.* TO 'kuorra'@'localhost';
+-- GRANT ALL PRIVILEGES ON base_demo.* TO kuorra@'%' IDENTIFIED BY 'kuorra.remote';
+
 FLUSH PRIVILEGES;
