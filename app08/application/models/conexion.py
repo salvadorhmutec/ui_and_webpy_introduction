@@ -24,6 +24,14 @@ def select_datos():
         print "Model select_datos Message {}".format(e.message)
         return None
 
+def select_email(email):
+    try:
+        return db.select('datos',where='email=$email', vars=locals())[0]
+    except Exception as e:
+        print "Model select_datos Error {}".format(e.args)
+        print "Model select_datos Message {}".format(e.message)
+        return None
+
 def insert_datos(email, password):
     try:
         return db.insert('datos', email=email,password=password)
