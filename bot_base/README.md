@@ -1,4 +1,6 @@
-# Readme
+# Bot de Telegram y Python
+
+En este demo se creara una base de datos con una tabla de productos y 3 registros, el bot de telegram realizará consultas a la tabla de productos y posteriormente devuelve el resulado de esa consulta a través del cliente Telegram, ya sea móvil o Web.
 
 ## Instalación de librerías requeridas
 
